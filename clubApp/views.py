@@ -7,7 +7,24 @@ def index(request):
 
 def clubes(request):
     data={
-        "titulo":"Clubes",
-        
+        "titulo":"Clubes NineNine",
+    }
+    return render(request, 'templatesClub/indexc.html',data)
+
+def colocolo(request):
+    data={
+        "titulo":"Clubes NineNine",
+    }
+    return render(request, 'templatesClub/indexc.html',data)
+
+def cobreloa(request):
+    data={
+        "titulo":"Clubes NineNine",
+    }
+    return render(request, 'templatesClub/indexc.html',data)
+
+def ohiggins(request):
+    data={
+        "titulo":"Clubes NineNine",
     }
     return render(request, 'templatesClub/indexc.html',data)
