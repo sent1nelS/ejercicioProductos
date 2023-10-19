@@ -18,10 +18,14 @@ from django.contrib import admin
 from django.urls import path
 
 from productosApp.views import *
+
+from clubApp.views import *
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("",index),
     path("juguetes/",juguetes),
     path("electronica/",electronica),
     path("ropa/",ropa),
+    path("clubes/",clubes),
 ]
